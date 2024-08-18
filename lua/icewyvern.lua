@@ -49,7 +49,7 @@ function M.load_colors()
 		IncSearch=		{fg=colors.yellow,			bg=colors.black,	gui=styles.r};
 		MatchParen=		{fg=colors.orange,				bg=colors.none,		gui=styles.underline};
 		Pmenu=			{fg=colors.none,			bg=colors.none,		gui=colors.none};
-		Search=			{fg=colors.white,			bg=colors.darkblue, gui=colors.none};
+		Search=			{fg=colors.white,			bg=colors.blue5, gui=colors.none};
 
 		-- Diff Stuff
 		DiffAdd=		{fg=colors.white,			bg=colors.green4,	gui=styles.none};
@@ -58,8 +58,8 @@ function M.load_colors()
 		DiffText=		{fg=colors.white,			bg=colors.none,		gui=styles.none};
 
 		-- Messages
-		ErrorMsg=		{fg=colors.white,			bg=colors.red,		gui=colors.none};
-		WarningMsg=		{fg=colors.white,			bg=colors.brown,	gui=colors.none};
+		ErrorMsg=		{fg=colors.black3,			bg=colors.orange,		gui=colors.none};
+		WarningMsg=		{fg=colors.black3,			bg=colors.brown,	gui=colors.none};
 
 		-- Text types
 		Constant=		{fg=colors.blue2,		bg=colors.none,		gui=colors.none};
@@ -85,7 +85,7 @@ function M.load_colors()
 		PreProc=		{fg=colors.blue5,			bg=colors.none,		gui=colors.none};
 		SpecialComment=	{fg=colors.black1,			bg=colors.none,		gui=colors.none};
 		Special=		{fg=colors.blue3,		bg=colors.none,		gui=colors.none};
-		SpecialKey=		{fg=colors.darkgray,		bg=colors.offblack, gui=colors.none};
+		SpecialKey=		{fg=colors.black2,		bg=colors.black1, gui=colors.none};
 		Statement=		{fg=colors.lightblue,		bg=colors.none,		gui=colors.none};
 		StorageClass=	{fg=colors.lightcyan,		bg=colors.none,		gui=styles.none};
 		Tag=			{fg=colors.indigo5,				bg=colors.none,		gui=colors.none};
@@ -96,18 +96,18 @@ function M.load_colors()
 		Whitespace=		{fg=colors.black2};
 
 		-- Diagnostics
-		DiagnosticError=			{fg=colors.red,		bg=colors.offblack};
-		DiagnosticHint=				{fg=colors.cyan,	bg=colors.offblack};
+		DiagnosticError=			{fg=colors.orange,		bg=colors.offblack};
+		DiagnosticHint=				{fg=colors.blue3,	bg=colors.offblack};
 		DiagnosticInfo=				{fg=colors.white,	bg=colors.offblack};
-		DiagnosticWarn=				{fg=colors.orange,	bg=colors.offblack};
+		DiagnosticWarn=				{fg=colors.yellow,	bg=colors.offblack};
 		DiagnosticUnnecessary=		{fg=colors.black2,					gui=styles.u};
 
-		DiagnosticSignError =		{fg=colors.red,		bg=colors.none};
-		DiagnosticSignHint =		{fg=colors.cyan,	bg=colors.none};
-		DiagnosticSignInfo =		{fg=colors.white,	bg=colors.none};
-		DiagnosticSignWarn =		{fg=colors.brown,	bg=colors.none};
+		DiagnosticSignError =		{link="DiagnosticError"};
+		DiagnosticSignHint =		{link="DiagnosticHint"};
+		DiagnosticSignInfo =		{link="DiagnosticInfo"};
+		DiagnosticSignWarn =		{link="DiagnosticWarn"};
 
-		DiagnosticVirtualTextError= {fg=colors.red,		bg=colors.none};
+		DiagnosticVirtualTextError= {fg=colors.orange,		bg=colors.none};
 		DiagnosticVirtualTextHint=  {fg=colors.cyan,	bg=colors.none};
 		DiagnosticVirtualTextInfo=  {fg=colors.white,	bg=colors.none};
 		DiagnosticVirtualTextWarn=  {fg=colors.brown,	bg=colors.none};
@@ -122,8 +122,8 @@ function M.load_colors()
 		-- Fugitive
 		fugitiveStagedSection = {fg=colors.indigo2};
 		fugitiveUnstagedSection = {fg=colors.indigo4};
-		diffOldFile= {fg=colors.darkred};
-		diffNewFile= {fg=colors.darkgreen};
+		diffOldFile= {fg=colors.blue1};
+		diffNewFile= {fg=colors.green5};
 
 		diffAdded=		{link="DiffAdd"};
 		diffRemoved=	{fg=colors.orange};
