@@ -175,7 +175,7 @@ function M.colorscheme()
 	end
 end
 
-M.colorscheme()
+-- M.colorscheme()
 
 return M
 
