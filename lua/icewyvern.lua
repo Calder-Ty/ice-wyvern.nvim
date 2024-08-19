@@ -35,8 +35,8 @@ function M.load_colors()
 	local syntax = {
 
 		LineNr=			{fg=colors.green1,											};
-		CursorLineNr=	{fg=colors.green1,							gui=styles.bold};
-		Visual=			{fg=colors.none,			bg=colors.white2, gui=colors.none};
+		CursorLineNr=	{fg=colors.green1,								gui=styles.bold};
+		Visual=			{fg=colors.none,			bg=colors.black1,	gui=colors.none};
 		WinSeparator=	{fg=colors.blue5,			bg=colors.none,		gui=colors.none};
 		SignColumn=		{																};
 		ColorColumn=	{fg=colors.none,			bg=colors.black2,	gui=colors.none};
