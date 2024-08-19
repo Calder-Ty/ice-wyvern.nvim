@@ -128,6 +128,9 @@ function M.load_colors()
 		diffAdded=		{link="DiffAdd"};
 		diffRemoved=	{fg=colors.orange};
 		gitDiff=		{fg=colors.white4};
+		GitSignsAdd= {link="GitGutterAdd"};
+		GitSignsChange= {link="GitGutterChange"};
+		GitSignsDelete= {link="GitGutterDelete"};
 
 		-- LangStuff, Push this to other places probably
 		RustInlay = {fg=colors.gray};
