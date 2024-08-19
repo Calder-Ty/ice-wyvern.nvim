@@ -41,7 +41,7 @@ function M.load_colors()
 		SignColumn=		{																};
 		ColorColumn=	{fg=colors.none,			bg=colors.black2,	gui=colors.none};
 		CursorColumn=	{fg=colors.none,			bg=colors.black3, gui=colors.none};
-		PmenuSel=		{fg=colors.none,			bg=colors.blue4, gui=colors.none};
+		PmenuSel=		{fg=colors.none,			bg=colors.blue5, gui=colors.none};
 
 		--Screen tooling
 		Cursor=			{fg=colors.black3,			bg=colors.white,	gui=colors.none};
