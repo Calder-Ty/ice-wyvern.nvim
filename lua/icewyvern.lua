@@ -59,7 +59,7 @@ function M.load_colors()
 
 		-- Messages
 		ErrorMsg=		{fg=colors.black3,			bg=colors.orange,		gui=colors.none};
-		WarningMsg=		{fg=colors.black3,			bg=colors.brown,	gui=colors.none};
+		WarningMsg=		{fg=colors.black3,			bg=colors.yellow,	gui=colors.none};
 
 		-- Text types
 		Constant=		{fg=colors.blue2,		bg=colors.none,		gui=colors.none};
@@ -72,25 +72,25 @@ function M.load_colors()
 		Function=		{fg=colors.blue1,	bg=colors.none,		gui=colors.none};
 		Comment=		{fg=colors.green5,		bg=colors.none,		gui=colors.none};
 		NonText=		{fg=colors.none,			bg=colors.none,		gui=colors.none};
-		Normal=			{fg=colors.indigo1,		bg=colors.background,		gui=colors.none};
+		Normal=			{fg=colors.indigo1,		bg=colors.none,		gui=colors.none};
 
 		Conditional=	{fg=colors.indigo5,				bg=colors.none,		gui=styles.i};
 		Define=			{fg=colors.indigo5,				bg=colors.none,		gui=colors.none};
-		Directory=		{fg=colors.violet,			bg=colors.none,		gui=colors.none};
-		Folded=			{fg=colors.gray,			bg=colors.shadow,	gui=colors.none};
+		Directory=		{fg=colors.green1,			bg=colors.none,		gui=colors.none};
+		Folded=			{fg=colors.white4,			bg=colors.shadow,	gui=colors.none};
 		Identifier=		{fg=colors.lightcyan,		bg=colors.none,		gui=styles.none};
 		Keyword=		{fg=colors.green4,		bg=colors.none,		gui=styles.bold};
-		Label=			{fg=colors.lightyellow,		bg=colors.none,		gui=colors.none};
+		Label=			{fg=colors.yellow,		bg=colors.none,		gui=colors.none};
 		Operator=		{fg=colors.orange,	bg=colors.none,		gui=colors.none};
 		PreProc=		{fg=colors.blue5,			bg=colors.none,		gui=colors.none};
 		SpecialComment=	{fg=colors.black1,			bg=colors.none,		gui=colors.none};
 		Special=		{fg=colors.blue3,		bg=colors.none,		gui=colors.none};
 		SpecialKey=		{fg=colors.black2,		bg=colors.black1, gui=colors.none};
-		Statement=		{fg=colors.lightblue,		bg=colors.none,		gui=colors.none};
-		StorageClass=	{fg=colors.lightcyan,		bg=colors.none,		gui=styles.none};
+		Statement=		{fg=colors.blue3,		bg=colors.none,		gui=colors.none};
+		StorageClass=	{fg=colors.blue4,		bg=colors.none,		gui=styles.b};
 		Tag=			{fg=colors.indigo5,				bg=colors.none,		gui=colors.none};
 		Title=			{fg=colors.white1,			bg=colors.none,		gui=styles.bold};
-		Todo=			{fg=colors.black,			bg=colors.darkgreen,gui=colors.none};
+		Todo=			{fg=colors.black,			bg=colors.green4,gui=colors.none};
  		Type=			{fg=colors.blue2,		bg=colors.none,		gui=styles.b};
 		Underlined=		{fg=colors.none,			bg=colors.none,		gui=styles.underline};
 		Whitespace=		{fg=colors.black2};
@@ -133,7 +133,7 @@ function M.load_colors()
 		GitSignsDelete= {link="GitGutterDelete"};
 
 		-- LangStuff, Push this to other places probably
-		RustInlay = {fg=colors.gray};
+		RustInlay = {fg=colors.white4};
 		pythonEscape = {fg="#ae81ff"};
 
 	}
@@ -149,6 +149,7 @@ function M.load_colors()
 	syntax["@keyword.conditional"] = {link = "Keyword"};
 	syntax["@keyword.exception.zig"] = {link = "Operator"};
 	syntax["@lsp.type.comment.documentation"] = {fg=colors.back1};
+	syntax["@punctuation"] = {link="Special"}
 
 	-- Semantic highlights
 	syntax["@lsp.type.operator.zig"] = {link="Operator"};
