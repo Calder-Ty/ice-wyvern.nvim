@@ -1,17 +1,11 @@
-# Monocle
+# IceWyvern
 
-A Neovim color-theme for the scheming programmer.
+A cold colorscheme for programming Zig.
 
 ## Usage
 
 Install with your favorite package manager
 
-Then add this in your configuration
-```lua
-monocle = require('monocle')
-monocle.colorscheme()
-```
-
 ## Example
 
-![monocle example](./media/example.png)
+![monocle example](./media/icewyvern.png)
