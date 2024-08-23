@@ -73,6 +73,7 @@ function M.load_colors()
 		Comment=		{fg=colors.green5,		bg=colors.none,		gui=colors.none};
 		NonText=		{fg=colors.none,			bg=colors.none,		gui=colors.none};
 		Normal=			{fg=colors.indigo1,		bg=colors.none,		gui=colors.none};
+		NormalFloat=	{fg=colors.indigo1,		bg=colors.black3,		gui=colors.none};
 
 		Conditional=	{fg=colors.indigo5,				bg=colors.none,		gui=styles.i};
 		Define=			{fg=colors.indigo5,				bg=colors.none,		gui=colors.none};
