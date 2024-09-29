@@ -95,7 +95,7 @@ function M.load_colors()
  		Type=			{fg=colors.blue2,		bg=colors.none,		gui=styles.b};
 		Underlined=		{fg=colors.none,			bg=colors.none,		gui=styles.underline};
 		Whitespace=		{fg=colors.black2};
-		SnippetTabstop = {bg=colors.none, gui.styles.underline};
+		SnippetTabstop = {bg=colors.none, gui=styles.underline};
 
 		-- Diagnostics
 		DiagnosticError=			{fg=colors.orange,		bg=colors.offblack};
