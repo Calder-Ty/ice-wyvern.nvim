@@ -134,6 +134,11 @@ function M.load_colors()
 		GitSignsChange= {link="GitGutterChange"};
 		GitSignsDelete= {link="GitGutterDelete"};
 
+		-- Neogit
+
+		NeogitDiffAdd= {link="GitGutterAdd"};
+		NeogitDiffDelete={link="GitGutterDelete"};
+
 		-- LangStuff, Push this to other places probably
 		RustInlay = {fg=colors.white4};
 		pythonEscape = {fg="#ae81ff"};
@@ -162,6 +167,9 @@ function M.load_colors()
 	syntax["@lsp.type.label"] = {fg=colors.white3};
 	syntax["@lsp.mod.declaration"] = {gui=styles.i};
 	syntax["@lsp.type.errorTag"] = {link="Type",	gui=styles.b}
+
+	-- Neogit
+	
 
 	return syntax
 end
