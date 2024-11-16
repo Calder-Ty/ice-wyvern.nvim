@@ -135,9 +135,34 @@ function M.load_colors()
 		GitSignsDelete= {link="GitGutterDelete"};
 
 		-- Neogit
-
 		NeogitDiffAdd= {link="GitGutterAdd"};
 		NeogitDiffDelete={link="GitGutterDelete"};
+
+		NeogitDiffContext={link="Normal"};
+		NeogitChangeModified = {link="GitGutterChange"};
+		NeogitChangeAdded = {link="NeogitDiffAdd"};
+		NeogitChangeDeleted = {link="NeogitDiffDelete"};
+		NeogitFilePath = {bg=colors.none};
+		NeogitCommitViewHeader = {link="Title"};
+		NeogitHunkHeaderHighlight = {bg=colors.none};
+		NeogitDiffContextHighlight = {bg=colors.none};
+		NeogitDiffAddHighlight = {link="NeogitDiffAdd"};
+		NeogitDiffDeleteHighlight = {link="GitGutterDelete"};
+		NeogitDiffHeaderHighlight = {link="Title"};
+		NeogitDiffHeader = {link="Title"};
+		NeogitHunkHeaderCursor = {link="Title"};
+		NeogitHunkHeader = {link="Title"};
+		NeogitDiffContextCursor = {link="Title"};
+		NeogitDiffAddCursor = {link="NeogitDiffAdd"};
+		NeogitDiffDeleteCursor = {link="GitGutterDelete"};
+		NeogitDiffHeaderCursor = {link="Title"};
+		NeogitSectionHeader = {link="Title"};
+		NeogitFloatHeader = {link="Title"};
+		NeogitHunkMergeHeader = {link="Title"};
+		NeogitSectionHeaderCount = {link="Title"};
+		NeogitFloatHeaderHighlight = {link="Title"};
+		NeogitHunkMergeHeaderCursor = {link="Title"};
+		NeogitHunkMergeHeaderHighlight = {link="Title"};
 
 		-- LangStuff, Push this to other places probably
 		RustInlay = {fg=colors.white4};
@@ -168,8 +193,6 @@ function M.load_colors()
 	syntax["@lsp.mod.declaration"] = {gui=styles.i};
 	syntax["@lsp.type.errorTag"] = {link="Type",	gui=styles.b}
 
-	-- Neogit
-	
 
 	return syntax
 end
