@@ -20,7 +20,7 @@ local M = {
 	purple = "#644b4f";
 
 	orange = "#b08f59";
-	yellow = "#beba56";
+	yellow = "#e8b10d";
 
 	white1 = "#ede3e2";
 	white2 = "#9ba1b9";
