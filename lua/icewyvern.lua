@@ -17,6 +17,8 @@ M.stylings = {
 	rb=				'reverse,bold';
 }
 
+M.colors = colors
+
 function M.highlight(group, style)
 	local gui = style.gui and 'gui=' .. style.gui or 'gui=NONE'
 	local fg  = style.fg  and 'guifg='  .. style.fg  or 'guifg=NONE'
@@ -36,6 +38,7 @@ function M.load_colors()
 
 		LineNr=			{fg=colors.green1,											};
 		CursorLineNr=	{fg=colors.green1,								gui=styles.bold};
+		StatusLine = {bg=colors.none};
 		Visual=			{fg=colors.none,			bg=colors.black1,	gui=colors.none};
 		WinSeparator=	{fg=colors.blue5,			bg=colors.none,		gui=colors.none};
 		SignColumn=		{																};
